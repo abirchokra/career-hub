@@ -1,6 +1,7 @@
-import { useLoaderData, useParams } from "react-router-dom";
+import { Link, useLoaderData, useParams } from "react-router-dom";
 import bgImg from '../../assets/bg1.png'
 import bgImgTwo from '../../assets/bg2.png'
+import { addToStoredDetailList } from "../../Utility/addToDb";
 
 const JobDetails = () => {
     const { job_id } = useParams();
@@ -8,7 +9,9 @@ const JobDetails = () => {
     const data = useLoaderData();
     const job = data.find(job => job.job_id === id)
     const {job_id : currentJob_id,company_img, job_details, job_responsibility,educational_qualifications,experience, salary,job_title,phone,email,location} = job;
-    
+    const handleApply = (id) =>{
+        addToStoredDetailList(id);
+    }
     return (
         <div>
             <div className="bg-gray-100 text-center md:flex items-center justify-between">
@@ -37,7 +40,7 @@ const JobDetails = () => {
                     <p><span className="font-bold">Email:</span> {email}</p>
                     <p><span className="font-bold">Address:</span> {location}</p>
                     <div>
-                    <button className="btn md:w-full font-bold p-2 bg-purple-600 text-white">Apply Now</button>
+                    <Link to={`/apply/${job_id}`}><button onClick={() => handleApply(job_id)} className="btn md:w-full font-bold p-2 bg-purple-600 text-white">Apply Now</button></Link>
                     </div>
                 </div>
             </div>

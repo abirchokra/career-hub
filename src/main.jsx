@@ -10,6 +10,7 @@ import ErrorElement from './Components/ErrorElement/ErrorElement';
 import Body from './Components/Body/Body';
 import JobDetails from './Components/JobDetails/JobDetails';
 import { ToastContainer } from 'react-toastify';
+import Apply from './Components/Apply/Apply';
 const router = createBrowserRouter([
   {
     path: "/",
@@ -25,6 +26,11 @@ const router = createBrowserRouter([
         element: <JobDetails></JobDetails>,
         loader: () => fetch('/jobs.json'),
       },
+      {
+        path: 'apply/:job_id',
+        element: <Apply></Apply>,
+        loader: () => fetch('/jobs.json'),
+      }
     ]
   },
 ]);
