@@ -1,0 +1,97 @@
+[
+    {
+        "job_id": 1,
+        "company_img": "https://i.ibb.co.com/gSj1sLc/google.png",
+        "job_title": "Software Engineer",
+        "company_name": "Google",
+        "salary": "$120,000 - $150,000",
+        "job_details": "As a Software Engineer, you will be responsible for designing and developing scalable software solutions that meet the needs of millions of users worldwide. You will collaborate closely with cross-functional teams, including product managers, designers, and other engineers, to implement new features and improve existing ones. You will also be expected to maintain high code quality by following best practices, conducting thorough testing, and participating in code reviews. This role is ideal for a creative problem-solver with a passion for cutting-edge technology.",
+        "job_type": "Remote",
+        "location": "Mountain View, CA",
+        "phone": "+1-800-555-0199",
+        "email": "hr@google.com",
+        "job_responsibility": [
+            "Develop and maintain high-quality software applications.",
+            "Collaborate with team members to design scalable solutions.",
+            "Perform code reviews and ensure best practices."
+        ],
+        "experience": "3+ years of experience in software development.",
+        "educational_qualifications": "Bachelor's degree in Computer Science or related field."
+    },
+    {
+        "job_id": 2,
+        "company_img": "https://i.ibb.co.com/YdVxZbw/netflix.png",
+        "job_title": "Data Scientist",
+        "company_name": "Netflix",
+        "salary": "$100,000 - $140,000",
+        "job_details": "In this Data Scientist role, you will analyze large data sets to uncover patterns and insights that drive strategic decisions. Your work will involve building predictive models, performing statistical analyses, and conducting A/B testing to optimize user experience. You'll work closely with engineers and product teams to integrate findings into our platform and provide actionable recommendations. This is a great role for someone who is curious, analytical, and excited to make an impact through data-driven strategies.",
+        "job_type": "Onsite",
+        "location": "Los Gatos, CA",
+        "phone": "+1-800-555-0200",
+        "email": "careers@netflix.com",
+        "job_responsibility": [
+            "Gather and process data for analysis.",
+            "Build models to support data-driven decisions.",
+            "Communicate findings with the team and stakeholders."
+        ],
+        "experience": "2+ years of experience in data science or analytics.",
+        "educational_qualifications": "Master's degree in Data Science, Statistics, or a related field."
+    },
+    {
+        "job_id": 3,
+        "company_img": "https://i.ibb.co.com/Bsf52WB/Career-Hub.png",
+        "job_title": "Product Manager",
+        "company_name": "Career-Hub",
+        "salary": "$130,000 - $160,000",
+        "job_details": "As a Product Manager at YouTube, you will oversee the entire lifecycle of a product, from ideation to launch and beyond. Your role involves defining product strategy, setting clear objectives, and prioritizing features based on user feedback and market trends. You will collaborate with engineering, design, and marketing teams to ensure alignment and meet project deadlines. You will also be responsible for analyzing product performance and gathering user insights to continuously improve the product. This role requires a visionary leader with excellent organizational skills.",
+        "job_type": "Full-time",
+        "location": "San Bruno, CA",
+        "phone": "+1-800-555-0201",
+        "email": "jobs@career_hub.com",
+        "job_responsibility": [
+            "Define product vision and roadmap.",
+            "Coordinate with cross-functional teams to ensure alignment.",
+            "Analyze product performance and gather user feedback."
+        ],
+        "experience": "5+ years of experience in product management.",
+        "educational_qualifications": "Bachelor's or Master's degree in Business, Marketing, or related field."
+    },
+    {
+        "job_id": 4,
+        "company_img": "https://i.ibb.co.com/5MFVQzQ/tesla.png",
+        "job_title": "Mechanical Engineer",
+        "company_name": "Tesla",
+        "salary": "$110,000 - $140,000",
+        "job_details": "In this role as a Mechanical Engineer, you will work on the design and development of mechanical systems for Tesla vehicles. You will be responsible for creating innovative solutions to improve vehicle performance, efficiency, and safety. Working closely with multidisciplinary teams, you will test prototypes, analyze data, and refine designs to meet high-quality standards. This position is perfect for someone with a passion for the automotive industry and experience in advanced mechanical engineering.",
+        "job_type": "Onsite",
+        "location": "Palo Alto, CA",
+        "phone": "+1-800-555-0202",
+        "email": "engineering@tesla.com",
+        "job_responsibility": [
+            "Design and analyze mechanical components.",
+            "Conduct tests and ensure quality standards.",
+            "Collaborate with teams to optimize product designs."
+        ],
+        "experience": "3+ years in mechanical engineering, automotive industry preferred.",
+        "educational_qualifications": "Bachelor's degree in Mechanical Engineering or related field."
+    },
+    {
+        "job_id": 5,
+        "company_img": "https://i.ibb.co.com/rmhKWDn/airbnb.png",
+        "job_title": "UX Designer",
+        "company_name": "airbnb",
+        "salary": "$90,000 - $120,000",
+        "job_details": "As a UX Designer at Google, you will be tasked with creating user-centered designs that are intuitive and visually appealing. You will conduct user research to understand their needs, preferences, and pain points. Your responsibilities include sketching wireframes, creating prototypes, and working closely with developers to bring designs to life. This role is ideal for someone who has a deep understanding of human-computer interaction and a strong eye for design aesthetics.",
+        "job_type": "Remote",
+        "location": "Mountain View, CA",
+        "phone": "+1-800-555-0199",
+        "email": "uxjobs@airbnb.com",
+        "job_responsibility": [
+            "Design user-friendly interfaces and experiences.",
+            "Conduct user research to gather insights.",
+            "Collaborate with developers to implement designs."
+        ],
+        "experience": "2+ years in UX/UI design.",
+        "educational_qualifications": "Bachelor's degree in Design, HCI, or related field."
+    }
+]
