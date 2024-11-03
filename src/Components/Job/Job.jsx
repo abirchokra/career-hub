@@ -1,7 +1,9 @@
 import React from 'react';
 import { Link } from 'react-router-dom';
-
+import { ToastContainer, toast } from 'react-toastify';
+import 'react-toastify/dist/ReactToastify.css';
 const Job = ({job}) => {
+    const notify = () => toast("Welcome to the Detail Section!");
     const {job_title,salary,location,job_type, company_name, company_img,job_id} = job;
     return (
         <div className='border border-gray-400 p-4 rounded-lg shadow-lg space-y-2'>
@@ -13,7 +15,7 @@ const Job = ({job}) => {
             <p><span className='font-bold'>Location:</span>  {location}</p>
             <p><span className='font-bold'>Salary:</span> {salary}</p>
             </div>
-           <Link to={`/jobDetails/${job_id}`}> <button className='bg-purple-400 text-white rounded-lg p-2 md:w-[140px] mt-3'>View Details</button></Link>
+           <Link onClick={notify} to={`/jobDetails/${job_id}`}> <button className='bg-purple-400 text-white rounded-lg p-2 md:w-[140px] mt-3'>View Details</button></Link>
             
         </div>
     );
